@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+	<name>Cholapps Content Management System</name>
+	<packagename>chola</packagename>
+	<version>1.6.0</version>
+	<description>The Cholapps Content Management System is one of the most popular content management system's available today.</description>
+	<creationDate>2006</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Cholalabs Software LLP. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<author>Cholapps</author>
+	<authorEmail>admin@chola.org</authorEmail>
+	<authorUrl>http://www.chola.org</authorUrl>
+	<packager>Cholapps</packager>
+	<packagerurl>http://www.chola.org</packagerurl>
+	<update>http://update.chola.org/packages/chola</update>
+	<files />
+</extension>

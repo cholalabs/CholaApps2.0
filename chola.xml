@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.0" type="file" method="upgrade">
+	<name>files_chola</name>
+	<author>Cholapps</author>
+	<authorEmail>admin@chola.org</authorEmail>
+	<authorUrl>www.chola.org</authorUrl>
+	<copyright>(C) 2010 - 2011 Cholalabs Software LLP. All rights reserved</copyright>
+	<license>GNU General Public License version 2 or later; see     LICENSE.txt</license>
+	<version>2.0.0</version>
+	<creationDate>April 2011</creationDate>
+	<description>FILES_CHOLA_XML_DESCRIPTION</description>
+
+	<fileset>
+		<files>
+			<folder>administrator</folder>
+			<folder>cache</folder>
+			<folder>components</folder>
+			<folder>images</folder>
+			<folder>includes</folder>
+			<folder>language</folder>
+			<folder>libraries</folder>
+			<folder>logs</folder>
+			<folder>media</folder>
+			<folder>modules</folder>
+			<folder>plugins</folder>
+			<folder>templates</folder>
+			<folder>tmp</folder>
+			<file>htaccess.txt</file>
+			<file>LICENSE.txt</file>
+			<file>README.txt</file>
+			<file>index.php</file>
+		</files>
+	</fileset>
+
+	<updateservers>
+		<server type="collection">http://update.chola.org/core/list.xml</server>
+		<server type="collection">http://update.chola.org/jed/list.xml</server>
+	</updateservers>
+</extension>

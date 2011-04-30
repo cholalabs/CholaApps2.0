@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="content">
+	<name>plg_content_chola</name>
+	<author>Cholapps Project</author>
+	<creationDate>November 2010</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Cholalabs Software LLP. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@chola.org</authorEmail>
+	<authorUrl>www.chola.org</authorUrl>
+	<version>1.6.0</version>
+	<description>PLG_CONTENT_CHOLA_XML_DESCRIPTION</description>
+	
+	<files>
+		<filename plugin="chola">chola.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_chola.ini</language>
+		<language tag="en-GB">en-GB.plg_content_chola.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="check_categories"
+					type="radio"
+					default="1"
+					description="PLG_CONTENT_CHOLA_FIELD_CHECK_CATEGORIES_DESC"
+					label="PLG_CONTENT_CHOLA_FIELD_CHECK_CATEGORIES_LABEL">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field name="email_new_fe"
+					type="radio"
+					default="1"
+					description="PLG_CONTENT_CHOLA_FIELD_EMAIL_NEW_FE_DESC"
+					label="PLG_CONTENT_CHOLA_FIELD_EMAIL_NEW_FE_LABEL">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
